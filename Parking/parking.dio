@@ -1,0 +1,81 @@
+<mxfile host="65bd71144e">
+    <diagram id="U2DIJQNyt4ZZEE3tEQIu" name="Page-1">
+        <mxGraphModel dx="1763" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="REQUIREMENTS&lt;br&gt;&lt;br&gt;TWO ENTRNACE GATE:- ENTRY,EXIT&lt;br&gt;&lt;br&gt;&lt;br&gt;TWO TYPE OF VICHLES:-&lt;br&gt;&lt;br&gt;1.TWO&lt;br&gt;2.FOUR WHELLEs&lt;br&gt;&lt;br&gt;Calculation of price basd on hours/minute&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="60" width="270" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="OBJECTS&lt;br&gt;&lt;br&gt;VICHLES:- VICHLES_NO,VICHLES_TYPE&lt;br&gt;&lt;br&gt;ENTRY:- find_parking_space,&lt;br&gt;update_parking_space,&lt;br&gt;generate_ticket&lt;br&gt;&lt;br&gt;TICKET;- timing,parking_type&lt;br&gt;&lt;br&gt;PARKING_SLOT:- id,ISEMPTY,VIVHLES_TYPE,price&lt;br&gt;&lt;br&gt;&lt;br&gt;EXIT:- calculate _price&lt;br&gt;update_parking_place&lt;br&gt;payment" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="70" width="230" height="270" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="455" y="15" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="PARKING_SPOT&lt;br&gt;&lt;br&gt;1.ID&lt;br&gt;2.PRICE.&lt;br&gt;3.IS_EMPTY&lt;br&gt;4.VICHLES_TYPE&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="405" width="260" height="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="is-a" style="edgeStyle=none;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="PRICETWOWHLLER()" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="690" width="140" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="has-a" style="edgeStyle=none;html=1;" parent="1" source="8" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="pricefourwhleer()" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="700" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; line-height: 27px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;vehicles&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; line-height: 27px;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;1.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;vehicles_No&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 20px; line-height: 27px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;vehicles_types&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="410" width="177.5" height="177.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="has-a" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="parkingManagerSpot()&lt;br&gt;&lt;br&gt;list&amp;lt;parkingSpot&amp;gt; lst;&lt;br&gt;&lt;br&gt;findParkingSpace();&lt;br&gt;removeParkingSpace();&lt;br&gt;addParkingSpace();&lt;br&gt;ParkVichles();&lt;br&gt;RemoveVichles();&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="468.75" width="260" height="171.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="is -a&amp;nbsp;" style="edgeStyle=none;html=1;entryX=0.038;entryY=0.416;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="parkingTwoWheleerManager()&lt;br&gt;list&amp;lt;TwoWheleerParing&amp;gt; list;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-540" y="468.75" width="170" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;entryX=0.319;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="14" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-197" y="740"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="is-a" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="0.5294" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="parkingFourWheller()&lt;br&gt;list&amp;lt;FourWheleerParking&amp;gt; list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-540" y="650" width="180" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;br&gt;parkingStrategy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="820" width="170" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;entryX=0.295;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-200" y="1030" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-280" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=none;html=1;entryX=0.876;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-120" y="1020" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
