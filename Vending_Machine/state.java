@@ -1,4 +1,4 @@
-package Vending_Machine.Start;
+package Vending_Machine;
 
 import java.util.List;
 
