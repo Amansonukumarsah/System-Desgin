@@ -10,6 +10,7 @@ public class manageStock {
         stock.displayProduct();
 
     }
+    // public
     // public manageStock() {
     // stock.addProduct(productType.cake, 3);
     // }

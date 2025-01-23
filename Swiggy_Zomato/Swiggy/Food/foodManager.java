@@ -2,7 +2,8 @@ package Swiggy_Zomato.Swiggy.Food;
 
 public class foodManager {
 
-    resturant resturant = new resturant(null, null);
+
+    resturant resturant = new resturant(null, false, null);
 
     private Integer orderId;
     private Integer resturantId;

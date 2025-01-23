@@ -3,11 +3,12 @@ package Swiggy_Zomato.Swiggy.Food;
 public class resturant {
 
     private String name;
-    private String Address;
+    private boolean isAvailabe;
+    menu menu;
 
-    public resturant(String name, String Address) {
+    resturant(String name, boolean isAvailabe, menu menu) {
         this.name = name;
-        this.Address = Address;
+        this.isAvailabe = true;
     }
 
     public void prepareFood() {

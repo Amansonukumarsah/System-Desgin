@@ -1,6 +1,5 @@
 package Swiggy_Zomato.Swiggy.Food;
 
-import java.util.Map;
 
 import Swiggy_Zomato.Swiggy.Details.user;
 
@@ -9,14 +8,15 @@ public class order {
     private Integer id;
     user user;
     resturant resturant;
-    Map<dish, Integer> cart;
 
-    // Constructor
-    public order(Integer id, user user, resturant resturant, Map<dish, Integer> cart) {
+    dish dish;
+
+    public order(Integer id, user user, resturant resturant,
+            dish dish) {
         this.id = id;
         this.user = user;
         this.resturant = resturant;
-        this.cart = cart;
+        this.dish = dish;
     }
 
     // Getter and Setter
@@ -44,12 +44,22 @@ public class order {
         this.resturant = resturant;
     }
 
+
+    public dish getDish() {
+        return dish;
+    }
+
+    public void setDish(dish dish) {
+        this.dish = dish;
+    }
+
     // print the Details
     @Override
     public String toString() {
-        return "order [id=" + id + ", user=" + user + ", resturant=" + resturant + ", dish=" + ", getId()="
+        return "order [id=" + id + ", user=" + user + ", resturant=" + resturant + ", dish=" + dish + ", getId()="
                 + getId() + ", getUser()=" + getUser() + ", getResturant()=" + getResturant() + ", getDish()="
-                + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+                + getDish() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+
                 + super.toString() + "]";
     }
 
