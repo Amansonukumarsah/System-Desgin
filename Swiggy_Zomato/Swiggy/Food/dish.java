@@ -3,10 +3,18 @@ package Swiggy_Zomato.Swiggy.Food;
 public class dish {
 
     private String name;
+
+    private String type;
+    private double price;
+
+    // Constructor
+    public dish(String name, String type, double price) {
+
     private String describe;
     private double price;
 
     public dish(String name, double price) {
+
         this.name = name;
         this.price = price;
     }
@@ -17,7 +25,11 @@ public class dish {
     }
 
     public String getDescribe() {
+
+        return this.type;
+
         return this.describe;
+
     }
 
     public double getPrice() {
@@ -32,8 +44,13 @@ public class dish {
         this.name = name;
     }
 
+
+    public void setDescribe(String type) {
+        this.type = type;
+
     public void setDescribe(String describe) {
         this.describe = describe;
+
     }
 
 }

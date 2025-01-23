@@ -1,5 +1,6 @@
 package Swiggy_Zomato.Swiggy.Food;
 
+
 import Swiggy_Zomato.Swiggy.Details.user;
 
 public class order {
@@ -7,6 +8,7 @@ public class order {
     private Integer id;
     user user;
     resturant resturant;
+
     dish dish;
 
     public order(Integer id, user user, resturant resturant,
@@ -42,6 +44,7 @@ public class order {
         this.resturant = resturant;
     }
 
+
     public dish getDish() {
         return dish;
     }
@@ -56,6 +59,7 @@ public class order {
         return "order [id=" + id + ", user=" + user + ", resturant=" + resturant + ", dish=" + dish + ", getId()="
                 + getId() + ", getUser()=" + getUser() + ", getResturant()=" + getResturant() + ", getDish()="
                 + getDish() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+
                 + super.toString() + "]";
     }
 
